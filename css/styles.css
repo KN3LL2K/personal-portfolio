@@ -21,7 +21,8 @@ body {
 
 
 #about h1 {
-  margin-top:10px;
+  margin-top:15px;
+  margin-bottom:15px;
   color: #F8F3EE;
   font-size:4.2em;
   font-weight:600;
@@ -30,6 +31,7 @@ body {
 
 #about h3 {
   color: #F8F3EE;
+  margin:5px 0 5px 0;
   font-size:1.4em;
   line-height:30px;
   font-weight:600;
@@ -37,6 +39,7 @@ body {
 }
 
 #about p {
+  margin:5px 0 5px 0;
   font-size:1.1em;
   font-weight:500;
 }
@@ -68,10 +71,16 @@ body {
 #project-bg {
   height:100vh;
   width:50%;
-  /*right:0;*/
   left:50%;
   position: absolute;
+}
+
+.green {
   background-color:#21CE99;
+}
+
+.orange {
+  background-color: #DA4E28;
 }
 
 #contact {
@@ -80,8 +89,18 @@ body {
   background-color:#4990E2;
 }
 
+.logo-wrapper {
+
+}
+
+
+
 #about {
-  padding:40px;
+  padding:40px 40px 40px 40px ;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*flex-wrap:wrap;*/
   background-color:#E52F34;
   height: 100vh;
   width:50%;
@@ -98,14 +117,12 @@ body {
   margin:0 auto;
   width:50%;
   height:100vh;
-  background-image: url("/assets/IMG_0257.jpg");
+  background-image: url("../assets/IMG_0257.jpg");
   background-size:cover;
-  background-position:58% 41%;
+  background-position:50% 41%;
 }
 
 .hero img {
-  /*left: calc(0% - 45%);*/
-  height:100%;
   min-height:auto;
   position: relative;
 }
@@ -117,11 +134,22 @@ body {
   width:100%;
   position: fixed;
   z-index:999;
-  font-size:1.2em;
+  font-size:1.1em;
   font-weight:500;
-  padding-top:20px;
+  
   padding-left: 30px;
   padding-right:30px;
+}
+
+.navbar-bottom {
+  display:flex;
+  /*flex-direction: row;*/
+  justify-content:space-between;
+  align-items:center;
+  /*flex-grow:1;*/
+  font-size:1.1em;
+  font-weight:500;
+  padding-left:15em;
 }
 
 .navbar-right {
@@ -132,8 +160,8 @@ body {
 
 .bottom {
   bottom: 0;
-  /*position: relative;*/
-  right:0;
+  /*padding-bottom:4em;*/
+  padding-right:3em;
 }
 
 .bottom span {
@@ -142,6 +170,7 @@ body {
 
 .top {
   top: 0;
+  padding-top:20px;
 }
 
 .project-menu-list {
@@ -179,6 +208,7 @@ body {
 
 .-active-dot {
   background-color:#000;
+  transition-duration: 0.3s;
 }
 
 .-active {
