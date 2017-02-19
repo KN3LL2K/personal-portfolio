@@ -21,8 +21,8 @@ body {
 
 
 #about h1 {
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-top:5px;
+  margin-bottom:5px;
   color: #F8F3EE;
   font-size:4.2em;
   font-weight:600;
@@ -73,6 +73,7 @@ body {
   width:50%;
   left:50%;
   position: absolute;
+  transition-duration: 0.3s;
 }
 
 .green {
@@ -81,6 +82,14 @@ body {
 
 .orange {
   background-color: #DA4E28;
+}
+
+.dBlue {
+  background-color: #093E4F;
+}
+
+.yellow {
+  background-color: #E0DF6B;
 }
 
 #contact {
@@ -99,7 +108,7 @@ body {
   padding:40px 40px 40px 40px ;
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   /*flex-wrap:wrap;*/
   background-color:#E52F34;
   height: 100vh;
@@ -139,17 +148,23 @@ body {
   
   padding-left: 30px;
   padding-right:30px;
+
+  display:none;
 }
 
 .navbar-bottom {
   display:flex;
-  /*flex-direction: row;*/
   justify-content:space-between;
   align-items:center;
-  /*flex-grow:1;*/
   font-size:1.1em;
   font-weight:500;
   padding-left:15em;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width:100%;
 }
 
 .navbar-right {
@@ -189,6 +204,7 @@ body {
   align-items: center;
   margin-top:15px;
   margin-bottom:15px;
+  transition-duration: 0.3s;
 }
 
 .project-menu-item-dot {
