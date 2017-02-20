@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(this).scrollTop();
   location.hash = "";
+  
   // hide/show navbar 
   $('.navbar-bottom a').click(function(e) {
     var target = e.target.innerHTML;
@@ -22,7 +23,6 @@ $(document).ready(function() {
 
   // project menu nav logic 
   var cryptocracyDesc = ("<div id='project-desc'><h2>Cryptocracy</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>A highly performant, cryptocurrency exchange built with a service-oriented architecture.</p> <a target='_blank' href='http://www.cryptocracy.co'>Link</a> </div>");
-
 
   var colorzDesc = ("<div id='project-desc'><h2>Colorz.io</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>Updated a color palette generator for developers with a new look and editor tools.</p> <a target='_blank' href='http://colorz-io.herokuapp.com'>Link</a> </div>");
 
@@ -60,37 +60,4 @@ $(document).ready(function() {
     elem.addClass('-active');
     elem.children('.project-menu-item-dot').addClass('-active-dot');
   })
-
-  let position = 0;
-  let allowScroll = true;
-  
-  // $(document.body).on('mousewheel', function(e) {
-    
-  //   const ids = {0: '#home', 1: '#work', 2: '#contact'};
-  //   console.log(e.deltaY, this, ids[position], position);
-  //   // e.preventDefault;
-  //   if (e.deltaY > 15 && allowScroll) {
-  //     allowScroll = false;
-  //     position -= 1;
-  //     if (position < 0) {
-  //       position = 0;
-  //     }
-  //     $('html, body').animate({scrollTop:$(ids[position]).parent('div').offset().top}, 'slow');
-  //   } else if (e.deltaY < -15 && allowScroll) {
-  //     allowScroll = false;
-  //     position += 1;
-  //     if (position > 2) {
-  //       position = 2;
-  //     }
-  //     $('html, body').animate({scrollTop:$(ids[position]).parent('div').offset().top}, 'slow');
-  //   } 
-    
-  //   setTimeout( () => {
-  //         allowScroll = true;
-  //       }, 800)
-  // })
-
-
-  
-
 });
