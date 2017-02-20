@@ -1,11 +1,10 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-
 
 /*-------prevent scrolling-------*/
 html, body {overflow: hidden;}
@@ -17,8 +16,6 @@ body {
   font-family: 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
 }
-
-
 
 #about h1 {
   margin-top:5px;
@@ -35,7 +32,6 @@ body {
   font-size:1.4em;
   line-height:30px;
   font-weight:600;
-
 }
 
 #about p {
@@ -94,6 +90,7 @@ body {
 
 #project-desc a:hover {
   background-color:#F8F3EE;
+  color:#21CE99;
   cursor:pointer;
   text-decoration: none;
 }
