@@ -152,6 +152,16 @@ body {
   margin:0;
 }
 
+#about p a {
+  color:#F8F3EE;
+  text-decoration: none;
+}
+
+#about p a:hover {
+  color:#111;
+  cursor: pointer;
+}
+
 .hero {
   top: 0;
   left: 0;
@@ -191,9 +201,13 @@ body {
   color:#111;
   transition-duration: 0.2s;
 }
-.navbar a:hover {
+.navbar-right a:hover {
   color: #F8F3EE;
   transition-duration: 0.2s;
+}
+
+.navbar-left a:hover {
+  color:#555;
 }
 
 .hidden {
@@ -202,12 +216,12 @@ body {
 
 .navbar-bottom {
   display:flex;
-  justify-content:space-between;
+  justify-content:flex-end;
   align-items:center;
   font-size:1.1em;
   font-weight:500;
-  padding-left:15em;
 }
+
 .navbar-bottom a {
   text-decoration: none;
   color: #111;
@@ -216,28 +230,13 @@ body {
 .navbar-bottom a:hover {
   color: #F8F3EE;
   transition-duration: 0.2s;
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  width:100%;
+  cursor: pointer;
 }
 
 .navbar-right {
   display: flex;
   justify-content: space-between;
-  width:27%;
-}
-
-.bottom {
-  bottom: 0;
-  /*padding-bottom:4em;*/
-  padding-right:3em;
-}
-
-.bottom span {
-  display:none;
+  width: 150px;
 }
 
 .top {
@@ -286,4 +285,66 @@ body {
 
 .-active {
   background: rgba(0,0,0,.04);
+}
+
+#contact {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: space-between;
+  width:66%;
+  font-size:2em;
+  font-weight: 600;
+}
+
+.contact-quote {
+  color:#111;
+}
+
+.contact-quote span {
+  color:#F8F3EE;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contact-line {
+  display: flex;
+  align-items: center;
+}
+
+.contact-email a {
+  color: #F8F3EE;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.contact-email a:hover {
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  color: #F8F3EE;
+}
+
+.contact-icons a {
+  color:#F8F3EE;
+  transition-duration: 0.3s;
+}
+
+.contact-icons a:hover {
+  color:#111;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
