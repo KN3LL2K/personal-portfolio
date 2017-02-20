@@ -46,12 +46,10 @@ body {
 
 #home {
   height:100vh;
-  /*min-width:100%;*/
 }
 
 #work {
   height:100vh;
-  /*min-width:100%;*/
 }
 
 #project-nav {
@@ -70,7 +68,6 @@ body {
 
 #project-desc {
   padding:160px 60px 60px 60px;
-
 }
 
 #project-desc p {
@@ -131,18 +128,11 @@ body {
   background-color:#4990E2;
 }
 
-.logo-wrapper {
-
-}
-
-
-
 #about {
   padding:40px 40px 40px 40px ;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-  /*flex-wrap:wrap;*/
   background-color:#E52F34;
   height: 100vh;
   width:50%;
