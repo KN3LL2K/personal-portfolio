@@ -8,7 +8,7 @@ html {
 
 
 /*-------prevent scrolling-------*/
-/*html, body {margin: 0; height: 100%; overflow: hidden}*/
+html, body {overflow: hidden;}
 
 body {
   padding:0;
@@ -66,6 +66,39 @@ body {
   right:0;
   position: absolute;
   background-color: #fff;
+}
+
+#project-desc {
+  padding:160px 60px 60px 60px;
+
+}
+
+#project-desc p {
+  font-size:1.4em;
+  font-weight: 500;
+  padding-right:5.3em;
+  color:#111;
+}
+
+#project-desc h2 {
+  margin:5px 0 5px 0;
+  font-size:4em;
+  color:#F8F3EE;
+}
+
+#project-desc a {
+  border: 1px solid #F8F3EE;
+  color:#F8F3EE;
+  font-size:1.2em;
+  border-radius: 5px;
+  padding:0.4em 1.4em 0.4em 1.4em;
+  text-decoration: none;
+}
+
+#project-desc a:hover {
+  background-color:#F8F3EE;
+  cursor:pointer;
+  text-decoration: none;
 }
 
 #project-bg {
@@ -145,10 +178,25 @@ body {
   z-index:999;
   font-size:1.1em;
   font-weight:500;
-  
+  color:#111;
   padding-left: 30px;
   padding-right:30px;
 
+
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color:#111;
+  transition-duration: 0.2s;
+}
+.navbar a:hover {
+  color: #F8F3EE;
+  transition-duration: 0.2s;
+}
+
+.hidden {
   display:none;
 }
 
@@ -159,6 +207,15 @@ body {
   font-size:1.1em;
   font-weight:500;
   padding-left:15em;
+}
+.navbar-bottom a {
+  text-decoration: none;
+  color: #111;
+  transition-duration: 0.2s;
+}
+.navbar-bottom a:hover {
+  color: #F8F3EE;
+  transition-duration: 0.2s;
 }
 
 .buttons {
@@ -211,7 +268,7 @@ body {
   width:15px;
   height:15px;
   border-radius:50%;
-  border:1px solid #000;
+  border:1px solid #111;
   left:calc(100% - 45px);
   position: absolute;
 }
@@ -223,7 +280,7 @@ body {
 }
 
 .-active-dot {
-  background-color:#000;
+  background-color:#111;
   transition-duration: 0.3s;
 }
 
