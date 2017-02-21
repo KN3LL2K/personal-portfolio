@@ -40,6 +40,10 @@ body {
   font-weight:500;
 }
 
+#about .contact-icons {
+  display:none;
+}
+
 #home {
   height:100vh;
 }
@@ -334,4 +338,43 @@ body {
   color:#111;
   transition-duration: 0.3s;
   cursor: pointer;
+}
+
+@media only screen and (max-width : 1025px) {
+/* Styles */
+
+  .navbar-bottom {
+    display:none;
+  }
+
+  #home {
+    height:auto;
+  }
+
+  .hero {
+    width:100%;
+    background-position:50% -40px;
+  }
+
+  #about {
+    top:54%;
+    width:100%;
+  }
+  #about .contact-icons {
+    display: flex;
+    padding-right: 50%;
+  }
+
+  html, body {
+    overflow: visible;
+  }
+
+  #contact {
+    display:none;
+  }
+  #work {
+    display: none;
+  }
+
+
 }
