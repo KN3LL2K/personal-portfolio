@@ -1,7 +1,13 @@
+  
 $(document).ready(function() {
+
   $(this).scrollTop();
   location.hash = "";
-  
+  let abt = $('#about').children();
+  console.log(abt);
+  // TweenLite.from('#about', 0.6, {width:'100%', left:0, delay:0.3, ease:Power2.easeOut});
+  // TweenLite.from(abt, 0.4, {opacity:0, delay:1.5, ease:Power2.easeOut});
+
   // hide/show navbar 
   $('.navbar-bottom a').click(function(e) {
     var target = e.target.innerHTML;
