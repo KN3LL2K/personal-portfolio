@@ -341,7 +341,6 @@ body {
 }
 
 @media only screen and (max-width : 1025px) {
-/* Styles */
 
   .navbar-bottom {
     display:none;
@@ -349,6 +348,7 @@ body {
 
   #home {
     height:auto;
+
   }
 
   .hero {
@@ -360,6 +360,7 @@ body {
     top:54%;
     width:100%;
   }
+
   #about .contact-icons {
     display: flex;
     padding-right: 50%;
@@ -368,6 +369,9 @@ body {
   html, body {
     overflow: visible;
   }
+  body {
+    background-color:#E52F34;
+  }
 
   #contact {
     display:none;
@@ -375,6 +379,5 @@ body {
   #work {
     display: none;
   }
-
 
 }
