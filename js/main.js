@@ -4,7 +4,6 @@ $(document).ready(function() {
   $(this).scrollTop();
   location.hash = "";
   let abt = $('#about').children();
-  console.log(abt);
   // TweenLite.from('#about', 0.6, {width:'100%', left:0, delay:0.3, ease:Power2.easeOut});
   // TweenLite.from(abt, 0.4, {opacity:0, delay:1.5, ease:Power2.easeOut});
 
@@ -28,11 +27,11 @@ $(document).ready(function() {
   })
 
   // project menu nav logic 
-  var cryptocracyDesc = ("<div id='project-desc'><h2>Cryptocracy</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>A highly performant, cryptocurrency exchange built with a service-oriented architecture.</p> <a target='_blank' href='http://www.cryptocracy.co'>Link</a> </div>");
+  var cryptocracyDesc = ("<div id='project-desc'><h2>Cryptocracy</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>A highly performant, cryptocurrency exchange built with a service-oriented architecture.</p> <a target='_blank' href='http://www.cryptocracy.co'>Link</a> <a target='_blank' href='https://github.com/CryptocracyExchange/cryptocracy'><i class='fa fa-github' aria-hidden='true'></i></a> </div>");
 
-  var colorzDesc = ("<div id='project-desc'><h2>Colorz.io</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>Updated a color palette generator for developers with a new look and editor tools.</p> <a target='_blank' href='http://colorz-io.herokuapp.com'>Link</a> </div>");
+  var colorzDesc = ("<div id='project-desc'><h2>Colorz.io</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>Updated a color palette generator for developers with a new look and editor tools.</p> <a target='_blank' href='http://colorz-io.herokuapp.com'>Link</a> <a target='_blank' href='https://github.com/AspiringAspen/color-picker'><i class='fa fa-github' aria-hidden='true'></i></a> </div>");
 
-  var deckstompDesc = ("<div id='project-desc'><h2>Deck Stomp</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>A multiplayer stats-based card game with a simple, intuitive interface.</p> <a target='_blank' href='http://deckstomp.herokuapp.com/'>Link</a> </div>");
+  var deckstompDesc = ("<div id='project-desc'><h2>Deck Stomp</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>A multiplayer stats-based card game with a simple, intuitive interface.</p> <a target='_blank' href='http://deckstomp.herokuapp.com/'>Link</a> <a target='_blank' href='https://github.com/AspiringAspen/AspiringAspen'><i class='fa fa-github' aria-hidden='true'></i></a> </div>");
 
   var imaginemDesc = ("<div id='project-desc'><h2>Imaginem Productions</h2> <svg height='3px' width='100%'> <line x1='0' y1='0' x2='15%' y2='0' style='stroke:rgb(248,243,238);stroke-width:3px' /> Sorry, your browser does not support inline SVG. </svg> <p>Designed and built a new website & branding for a wedding & commercial film production company. </p> <a target='_blank' href='http://www.imaginemproductions.com'>Link</a> </div>");
 

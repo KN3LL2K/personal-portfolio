@@ -1,9 +1,13 @@
 html {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
 }
 
 /*-------prevent scrolling-------*/
@@ -13,8 +17,9 @@ body {
   padding:0;
   margin:0;
   background-color:#F2F2F2;
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue", "Helvetica", Arial, "Lucida Grande", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #about h1 {
@@ -116,11 +121,11 @@ body {
 }
 
 .dBlue {
-  background-color: #093E4F;
+  background-color: #4990E2;
 }
 
 .yellow {
-  background-color: #E0DF6B;
+  background-color: #F39585;
 }
 
 #contact {
